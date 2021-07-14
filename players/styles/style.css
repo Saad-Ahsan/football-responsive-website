@@ -1,0 +1,59 @@
+body{font-family: 'Poppins', sans-serif;}
+/*-------------erif;}
+ header style start
+ --------------- */
+.detail{background-color: navy;}
+.header-info{display: flex;}
+.title-info{width:485px ;
+           color: whitesmoke;
+           margin-top: 90px;
+           margin-left: 176px;}
+.live-info{border: 2px solid #E02C6D;
+           background-color: #E02C6D;
+           width: 88PX;
+           display: inline;
+           border-radius: 5PX;}  
+.live-info a{text-decoration: none;
+             color: aliceblue;}                    
+.baneer img{width: 556px;
+             margin-top: 20px;}
+ .header-info:hover .baneer{transform: rotate(360deg);
+                        transition:transform 4s ease-in-out;}            
+  /*--------------
+  header style end 
+  ----------------*/
+
+  /*------------------- 
+   players style start 
+   ------------------- */
+
+.players{display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-column-gap: 45px;
+margin-top: 85px;
+grid-row-gap:60px ;
+padding-left:180px ;}
+.player img{width: 300px;}
+.player{box-shadow: 3px 2px 3px 2px lightgray;
+        width: 300px;
+        height:500px ;}
+/*---------------
+ player style end
+ ----------------- */
+/*-------------------------
+ match highlight style start
+ -------------------- ------*/
+
+.summary{display: flex;
+         margin-left: 182px;
+         margin-top: 224px;}
+.match-picture img{width: 567px;
+                  margin-right: 33px;}
+.match-detail{width: 469px;
+            margin-left: 33px;}
+/*------------------
+ match highlight end
+--------------------*/
+.logo img{width: 483px;
+        margin-left: 381px;}
+
