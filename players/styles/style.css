@@ -3,7 +3,8 @@ body{font-family: 'Poppins', sans-serif;}
  header style start
  --------------- */
 .detail{background-color: navy;}
-.header-info{display: flex;}
+.header-info{display: flex;
+            flex-wrap: wrap;}
 .title-info{width:485px ;
            color: whitesmoke;
            margin-top: 90px;
@@ -45,6 +46,7 @@ padding-left:180px ;}
  -------------------- ------*/
 
 .summary{display: flex;
+        flex-wrap: wrap;
          margin-left: 182px;
          margin-top: 224px;}
 .match-picture img{width: 567px;
@@ -54,6 +56,43 @@ padding-left:180px ;}
 /*------------------
  match highlight end
 --------------------*/
+/*------------------ 
+footer style strat 
+--------------------*/
 .logo img{width: 483px;
         margin-left: 381px;}
+.all{display: flex;
+     justify-content: center;
+       font-size: 20px;
+       color: gray;
+align-items: center}
+.all a{ margin: 5px;
+   margin-right:50px ;
+   text-decoration: none;}
 
+.copyright{margin-left: 650px;
+           color: indianred;}
+           .copyright i{text-decoration: none;
+        margin-top: 10px;}
+.container{margin-top: 87px;}
+/*------------------
+ all style complete 
+ -------------------*/
+
+ /*-------------
+  midea Queries 
+  -------------*/
+  /* mobile device */
+  @media only screen and (max-width:688px){
+        .baneer img,.match-picture img{width: 350px;}
+        .players{grid-template-columns: repeat(1,1fr);
+        
+}
+        .player{flex-direction: column;}
+        .team-player{width: 100%;}
+        .logo img{width: 350px;}
+  }
+          
+  
+          
+  
